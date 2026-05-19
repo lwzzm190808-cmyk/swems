@@ -1149,6 +1149,26 @@ print(f'清理日志: {deleted} 条')
 
 ---
 
+### Q：如何使用SWEMS？
+```text
+# === 开发机器 ===
+./swems.sh --package          # 打包成 dist/swems_xxx.tar.gz
+# 把 tar.gz 传到目标服务器
+
+# === 目标服务器 ===
+./swems.sh --check            # 检查环境够不够
+sudo ./swems.sh --deploy      # 部署（装依赖、建库、配置 Nginx/Supervisor）
+sudo ./swems.sh --start       # 启动服务
+sudo ./swems.sh --install-service  # 设为开机自启
+
+# === 日常运维 ===
+sudo ./swems.sh --status      # 看状态
+sudo ./swems.sh --health      # 健康检查
+sudo ./swems.sh --logs all    # 看日志
+sudo ./swems.sh --restart     # 重启
+
+```
+
 ## 版本历史
 
 | 版本 | 日期 | 说明 |
@@ -1161,4 +1181,4 @@ print(f'清理日志: {deleted} 条')
 
 MIT License
 
-Copyright (c) 2025 SWEMS
+Copyright (c) 2026 SWEMS
