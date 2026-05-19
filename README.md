@@ -16,7 +16,7 @@
 
 - **开发者：** THIRTEEN
 - **邮箱：** 1481031171@qq.com
-- **GitHub：** [https://github.com/yourname](https://github.com/lwzzm190808-cmyk/swems/tree/main)
+- **GitHub：** https://github.com/lwzzm190808-cmyk/swems/tree/main
 
 
 ---
